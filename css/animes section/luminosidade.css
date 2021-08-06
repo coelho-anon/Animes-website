@@ -1,0 +1,85 @@
+#btn-luminosidade{
+  display: block;
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  transition: .2s;
+  width: 100%;
+}
+
+#noite{
+	border-radius: 50%;
+	position: absolute;
+	top: 52%;
+	left: 12%;
+	opacity: .5;
+}
+
+#dia{
+	border-radius: 50%;
+	position: absolute;
+	left: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+.tooltipLuminosidade {
+  position: relative;
+  border-bottom: 1px dotted black;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  transition: .2s;
+}
+
+.tooltipLuminosidade:hover{
+  background-color: #0852d0;
+  transition: .2s;
+}
+
+.tooltipLuminosidade .tooltiptextLuminosidade {
+  visibility: hidden;
+  width: 50%;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 105%;
+  left: 40%;
+  margin-left: -60px;
+  font-size: 1.5em;
+}
+
+.tooltipLuminosidade .tooltiptextLuminosidade::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #555 transparent;
+}
+
+.tooltipLuminosidade:hover .tooltiptextLuminosidade {
+  visibility: visible;
+}
+
+.tooltiptextLuminosidade:hover{
+  display: none;
+}

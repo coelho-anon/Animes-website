@@ -1,0 +1,145 @@
+<!--!
+
+-->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+<head>
+	<title id="animes_paradise_logo">ANIMES PARADISE</title>
+	<link rel="stylesheet" type="text/css" href="css/animes section/Animes_section.css">
+	<link rel="stylesheet" type="text/css" href="css/animes section/configuracoes filtros.css">
+	<link rel="stylesheet" type="text/css" href="css/animes section/filtro familia switch btn.css">
+	<link rel="stylesheet" type="text/css" href="css/animes section/description poupUp.css">
+	<link rel="stylesheet" type="text/css" href="css/animes section/luminosidade.css">
+	<link rel="stylesheet" type="text/css" href="css/animes section/switch luminosidade.css">
+</head>
+<body id="zetsu">
+<!-- onload="listrar_tabela()" -->
+	<header>
+    	<span id="logo" onclick="filtrar()">Animes Paradise</span>
+    	<img src="images/05.jpg" style="position: fixed; z-index: -3; width: 100%;" id="imagem_de_background">
+
+    	<div id="mynav">
+
+
+		  <button id="fechar-nav">&times;</button>
+
+
+		  	<button class="btn-nav" id="tamanho_das_letras">Tamanho Das Letras
+		  	<div>
+		  	<span class="font_tamanho" onclick="tamanho_da_fonte(0.8)">pequeno</span>
+		  	<span class="font_tamanho" onclick="tamanho_da_fonte(1)">Médio</span>
+		  	<span class="font_tamanho" onclick="tamanho_da_fonte(1.2)">Grande</span>
+		  	</div>
+		  	</button>
+
+		  <div class="tooltipLuminosidade" id="luminosidade">
+		  	<span class="tooltiptextLuminosidade" id="tooltiptextLuminosidade">as cores e imagens do site ficarão mais escurasas cores e imagens do site ficarão mais escuras</span>
+
+		  	<button id="btn-luminosidade">Luminosidade</button>		  	
+
+		  	<img src="images/dia.png" id="dia">
+		  	<label class="switchLuminosidade">
+			  <input type="checkbox" checked id="checkBoxLuminosidade" onclick="luminosidade_animes_section()">
+			  <span class="slider roundLuminosidade"></span>
+			</label>
+			<img src="images/noite.png" id="noite">
+		  </div>
+
+
+		  <div class="tooltip" id="tooltip">
+			<span class="tooltiptext" id="tooltiptext">Animes de categoria <span class="animesOFF">seinen, ecchi,
+			horror e thriller </span>  serão ocultados</span>
+		<a id="BXfamilia" >
+		  <button id="descricao">Filtro familia</button>
+
+		  <img src="images/off familia icon.png" id="familiaOff">
+		  
+		  	<label class="switch">
+			  <input type="checkbox" id="checkBox" onclick="filtrar()">
+			  <span class="slider round"></span>
+			</label>
+			
+		  <img src="images/familia icon.png" id="f">
+		</a>
+		</div>
+		</div>
+
+
+		<span id="main">
+		  <button id="abrir-nav">&#9776; Luminosidade/Config.</button>
+		</span>
+    </header>
+
+
+    <div id="caixa_Principal_animes">
+
+    	<div>
+				<a href="">
+					<button type="button" id="menu"> 
+						Inicio
+					</button>
+				</a>
+
+				<a href="">
+					<button type="button" class="menu"> 
+						Animes
+					</button>
+				</a>
+
+				<a href="">
+					<button type="button" class="menu"> 
+						Hentai
+					</button>
+				</a>
+
+				<a href="">
+					<button type="button" class="menu"> 
+						Sobre
+					</button>
+				</a>
+
+
+			<input type="text" name="" id="entrada" placeholder="nome do anime..." onkeyup="aparecer()">
+            <button id="procurar">pesquisar</button>
+        </div>
+
+        <!-- botões do ALFABETO -->
+        <script src="js/animes section/alfabeto_animes_section.js"></script>
+
+        <div id="btn_filtro_categorias">
+
+        </div>
+
+        <div id="categorias">
+        	
+        </div>
+
+    </div>
+
+    
+
+    <div id="snackbar"><span style="color: red">Não encontrado: </span> verifique se escreveu corretamente </div>
+
+<script src="js/animes.js"></script>
+<script src="js/animes section/categorias animes section.js"></script>
+<script src="js/animes section/tabela animes section.js"></script>
+<script src="js/animes section/video_div.js"></script>
+<script src="js/animes section/caixa de animes sessao animes section.js"></script>
+<script src="js/animes section/search animes section.js"></script>
+<script src="js/animes section/btn_fechar_filtro_categoria.js"></script>
+<script src="js/animes section/aparecer_anime.js"></script>
+<script src="js/animes section/controle de luminosidade.js"></script>
+<script src="js/animes section/filtro familia.js"></script>
+<script src="js/animes section/luminosidade.js"></script>
+<script src="js/animes section/tamanho_da_fonte.js"></script>
+
+</body>
+</html>

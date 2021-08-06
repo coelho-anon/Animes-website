@@ -1,0 +1,147 @@
+.font_tamanho{
+  border: none;
+  font-size: 1em;
+  background-color: #540aad;
+  padding: 0.5%;
+  border-radius: 12px;
+  transition: .2s;
+  color: white;
+}
+
+    /*primeiro botão do menu*/
+    #menu
+    {
+      background-color: #da78abe6;
+      color: white;
+      border: 0px;
+      border-radius: 10px;
+      font-size: 25px;
+      width: 11.5%;
+      height: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-left: 0.5%;
+
+    }
+
+    .menu
+    {
+      background-color: #da78abe6;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 1%;
+    }
+
+.elementosDoSearch{
+        margin: 0px;
+        padding: 5%;
+        color: white;
+        font-size: 2.4em;
+      }
+
+
+    .categ_filtro{
+      background-color: #1fbd3e;
+      border: none;
+      color: white;
+      border-radius: 15px;
+      font-size: 2em;
+      margin: .5%;
+      transition: .5s;
+    }
+
+    .categorias
+    {
+      background-color: #37e8e0b3;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      margin: .7%;
+      width: 31.9%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+      margin-top: 1%;
+
+    }
+
+    .alfabeto
+    {
+      background-color: #1b1717;
+      color: white;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 0px;
+      border-radius: 20px 0px;
+      text-decoration: none;
+      color: white;
+      font-size: 250%;
+      margin-left: .4%;
+      margin-top: 2%;
+    }
+
+    .tdAnimesTable
+    {
+      color: white;
+      text-align: left;
+      padding: 8px;
+    }
+
+    .trAnimesTable{
+      height: 15%;
+      width: 100%;
+      transition: .1s;
+    }
+
+    .botao
+      {
+            size: 50px;
+            font-size: 50px;
+            background-color: green;
+            border: 0px;
+            transition: all 0.2s ease;
+            margin-top: 1%;
+            margin-left: 0.5%;
+            padding: 0.5%;
+            border-radius: 10px;
+            
+      }
+
+      .episodio
+      {
+            background-color: #702dbf;
+            color: white;
+            font-size: 305%;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 0px;
+            border-radius: 20px 0px;
+            margin: 1%;
+            overflow: auto;
+            cursor: pointer;
+      }
+
+      .elementosDoSearch{
+            margin: 0px;
+            padding: 5%;
+            color: white;
+            font-size: 2.4em;
+      }
+
+      .fecharBTN_BX_patrao{
+        background-color: #544343;
+        border: none;
+        font-size: 1.5em;
+        margin-top: 2.5%;
+        border-radius: 5px;
+        color: white;
+        transition: .1s;
+        opacity: .9;
+      }

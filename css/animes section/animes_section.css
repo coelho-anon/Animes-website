@@ -1,0 +1,1139 @@
+		/* width */
+      ::-webkit-scrollbar {
+        width: 9px;
+        scroll-behavior: smooth;
+      }
+
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background-color: grey;
+      }
+
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #00fd1f66;
+        border-radius: 30px;
+      }
+
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #00fd1fcf;
+      }
+@media only screen and (max-width: 600px) {
+  body{
+  margin: 0px;
+  background-color: black;
+  background-repeat: no-repeat;
+  /*
+  font-size: .8em;
+  
+  medio
+  font-size: 1em;
+
+  grande
+  display: block;
+  font-size: 1.2em;
+
+  */
+  
+}
+
+.font_tamanho{
+  border: none;
+  font-size: 1em;
+  background-color: #540aad;
+  padding: 0.5%;
+  border-radius: 12px;
+  transition: .2s;
+  color: white;
+}
+
+.font_tamanho:first-child{
+
+}
+
+
+#logo{
+  color: white;
+  font-size: 55px;
+  opacity: 0.7;
+  
+  background-image: 
+  linear-gradient(to right, rgba(20, 253, 99, 0.82), rgba(76, 101, 226, 0.85), rgba(60,210,255,1));
+
+
+  position: absolute;
+  margin-top: 4%;
+  padding-left: 11px;
+  padding-right: 50px;
+  border-radius: 0px 40px 0px 0px;
+  animation: sombra 20s infinite; 
+  -webkit-animation: sombra 20s infinite;  /* Safari 4.0 - 8.0 */    
+  box-shadow: 18px 0px 20px 20px #12037d;           
+}
+
+@keyframes sombra
+            {
+              0% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              5% {box-shadow: 18px 0px 20px 20px #09ff1c;}
+              10% {box-shadow: 18px 0px 20px 20px #acff09;}
+              15% {box-shadow: 18px 0px 20px 20px #fff709;}
+              20% {box-shadow: 18px 0px 20px 20px #ffa809;}
+
+              25% {box-shadow: 18px 0px 20px 20px #ff6f09;}
+              30% {box-shadow: 18px 0px 20px 20px #ff4d09;}
+              35% {box-shadow: 18px 0px 20px 20px #ff2009;}
+              40% {box-shadow: 18px 0px 20px 20px #ff0909;}
+              45% {box-shadow: 18px 0px 20px 20px #ff0986;}
+
+              50% {box-shadow: 18px 0px 20px 20px #ff09e1;}
+              55% {box-shadow: 18px 0px 20px 20px #ce09ff;}
+              60% {box-shadow: 18px 0px 20px 20px #8a09ff;}
+              65% {box-shadow: 18px 0px 20px 20px #0d09ff;}
+              70% {box-shadow: 18px 0px 20px 20px #0977ff;}
+
+              75% {box-shadow: 18px 0px 20px 20px #09bbff;}
+              80% {box-shadow: 18px 0px 20px 20px #09ffe8;}
+              85% {box-shadow: 18px 0px 20px 20px #09ff77;}
+              90% {box-shadow: 18px 0px 20px 20px #18ff09;}
+              95% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              100%{box-shadow: 18px 0px 20px 20px #09ffa4;}
+            }
+
+
+            /* Safari 4.0 - 8.0*/ 
+            @-webkit-keyframes sombra
+            {
+              0% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              5% {box-shadow: 18px 0px 20px 20px #09ff1c;}
+              10% {box-shadow: 18px 0px 20px 20px #acff09;}
+              15% {box-shadow: 18px 0px 20px 20px #fff709;}
+              20% {box-shadow: 18px 0px 20px 20px #ffa809;}
+
+              25% {box-shadow: 18px 0px 20px 20px #ff6f09;}
+              30% {box-shadow: 18px 0px 20px 20px #ff4d09;}
+              35% {box-shadow: 18px 0px 20px 20px #ff2009;}
+              40% {box-shadow: 18px 0px 20px 20px #ff0909;}
+              45% {box-shadow: 18px 0px 20px 20px #ff0986;}
+
+              50% {box-shadow: 18px 0px 20px 20px #ff09e1;}
+              55% {box-shadow: 18px 0px 20px 20px #ce09ff;}
+              60% {box-shadow: 18px 0px 20px 20px #8a09ff;}
+              65% {box-shadow: 18px 0px 20px 20px #0d09ff;}
+              70% {box-shadow: 18px 0px 20px 20px #0977ff;}
+
+              75% {box-shadow: 18px 0px 20px 20px #09bbff;}
+              80% {box-shadow: 18px 0px 20px 20px #09ffe8;}
+              85% {box-shadow: 18px 0px 20px 20px #09ff77;}
+              90% {box-shadow: 18px 0px 20px 20px #18ff09;}
+              95% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              100%{box-shadow: 18px 0px 20px 20px #09ffa4;}
+            }
+
+            #logo:before, #logo:after
+            {
+                  content: 'Animes Paradise';
+                  position: absolute;
+                  top: 0;
+                  left: 11px;
+                  right: 0;
+                  overflow: hidden;
+                  color: #fff;
+            }
+            
+            #logo: before
+            {
+                  left: 8px;
+                  text-shadow: 2px 0 #00ffea;
+                  animation: effect 3s infinite linear;
+            }
+            
+             #logo:after
+            {
+                  left: 4px;
+                  text-shadow: -2px 0 #fe3a7f;
+                  animation: effect 2s infinite linear;
+            }
+            
+            @-webkit-keyframes effect
+            {
+                  0%{
+                        clip:rect(55px, 9999px, 56px, 0);
+
+                  }
+                  
+                  5%{
+                        clip:rect(47px, 9999px, 30px, 0);
+                  }
+                  
+                  10%{
+                        clip:rect(33px; 9999px, 36px, 0);
+                  }
+                  
+                  15%{
+                        clip:rect(53px, 9999px, 9px, 0);
+                  }
+                  
+                  20%{
+                        clip:rect(63px, 9999px, 59px, 0);
+                  }
+                  
+                  25%{
+                        clip:rect(96px,9999px, 98px, 0);
+                  }
+                  
+                  30%{
+                        clip:rect(48px, 9999px, 77px, 0);
+                  }
+                  
+                  35%{
+                        clip:rect(50px, 9999px, 34px, 0);
+                  }
+                  
+                  40%{
+                        clip:rect(60px, 9999px, 72px, 0);
+                  }
+                  
+                  45%{
+                        clip:rect(10px, 9999px, 81px, 0);
+                  }
+                  
+                  50%{
+                        clip:rect(2px, 9999px, 60px, 0);
+                  }
+                  
+                  55%{
+                        clip:rect(23px, 9999px, 89px, 0);
+                  }
+                  
+                  60%{
+                        clip:rect(76px, 9999px, 91px, 0);
+                  }
+                  
+                  65%{
+                        clip:rect(62px, 9999px, 30px, 0);
+                  }
+                  
+                  70%{
+                        clip:rect(60px, 9999px, 73px, 0);
+                  }
+                  
+                  75%{
+                        clip:rect(60px, 9999px, 87px, 0);
+                  }
+                  
+                  80%{
+                        clip:rect(2px, 9999px, 14px, 0);
+                  }
+                  
+                  85%{
+                        clip:rect(2px, 9999px, 14px, 0);
+                  }
+                  
+                  90%{
+                        clip:rect(73px, 9999px, 50px, 0);
+                  }
+                  
+                  95%{
+                        clip:rect(79px, 9999px, 50px, 0);
+                  }
+                  
+                  100%{
+                        clip:rect(17px, 9999, 79px, 0);
+                  }
+                  
+            }
+  /*Template Animes & HQ*/
+    #logo
+    {
+      color: white;
+      font-size: 55px;
+      opacity: 0.7;
+      background-color: black;
+      position: absolute;
+      margin-top: 8%;
+      padding-left: 1%;
+      padding-right: 50px;
+      border-radius: 0px 30px 0px 0px;
+    }
+
+    /*primeiro botão do menu*/
+    #menu
+    {
+      background-color: #da78abe6;
+      color: white;
+      border: 0px;
+      border-radius: 10px;
+      font-size: 25px;
+      width: 11.5%;
+      height: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-left: 0.5%;
+
+    }
+
+    .menu
+    {
+      background-color: orange;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 1%;
+    }
+
+    
+
+    #caixa_Principal_animes
+    {
+      background-color: #8778da87;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 20%;
+      margin-bottom: 5%;
+      
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    #entrada
+    {
+        background-color: #821ece80;
+        color: white;
+        width: 27.8%;
+        border-radius: 5px;
+        font-size: 2.5em;
+        /*margin-top: .5%;*/
+        margin-left: 3%;
+        box-shadow: -9px 0px 20px 16px #ffffff78;
+        border: none;
+        position: absolute;
+        margin-top: 1%;
+    }
+
+      #entrada::placeholder
+      {
+            color: #939396;
+      }
+
+      #procurar
+      {
+
+        background-color: DodgerBlue;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 31%;
+        position: absolute;
+        font-size: 2.5em;
+        box-shadow: 9px 1px 20px 13px #ffffff7a;
+        border: none;
+        /*margin-top: .5%;*/
+        margin-top: 1%;
+      }
+
+
+    a{
+      text-decoration: none;
+    }
+
+    .alfabeto
+    {
+      background-color: #1b1717;
+      color: white;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 0px;
+      border-radius: 20px 0px;
+      text-decoration: none;
+      color: white;
+      font-size: 250%;
+      margin-left: .4%;
+      margin-top: 2%;
+    }
+
+    
+
+    #btn_filtro_categorias{
+      margin-top: 2.5%;
+    }
+
+    .categ_filtro{
+      background-color: #1fbd3e;
+      border: none;
+      color: white;
+      border-radius: 15px;
+      font-size: 2em;
+      margin: .5%;
+      transition: .5s;
+    }
+
+    .fechar_btn_categ{
+      color: #d61111;
+      border: none;
+      background-color: transparent;
+    }
+
+    #categorias{
+      background-color: #48a098a8;
+      width: 33.9%;
+      margin-left: 0.5%;
+      margin-top: 2.7%;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+      float: left;
+    }
+
+    .categorias
+    {
+      background-color: #37e8e0b3;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      margin: .7%;
+      width: 31.9%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+      margin-top: 1%;
+
+    }
+
+    #tableAnimes 
+    {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      display: inline-block; 
+      margin-top: 2.7%;
+      margin-left: 2%;
+      width: 62%;
+    }
+
+    .tdAnimesTable, .thAnimesTable 
+    {    
+        text-align: left;
+        padding: 8px;
+    }
+
+    .tdAnimesTable
+    {
+      color: white;
+    }
+
+    .espacamento
+    {
+      
+      font-size: 1.5em;
+    }
+
+    .trAnimesTable{
+      height: 15%;
+      width: 100%;
+      transition: .1s;
+    }
+
+
+
+
+
+
+
+
+
+    .botao
+      {
+            size: 50px;
+            font-size: 50px;
+            background-color: green;
+            border: 0px;
+            transition: all 0.2s ease;
+            margin-top: 1%;
+            margin-left: 0.5%;
+            padding: 0.5%;
+            border-radius: 10px;
+            
+      }
+
+      .botao a{
+            color: white;
+      }
+
+      .episodio
+      {
+            background-color: #702dbf;
+            color: white;
+            font-size: 305%;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 0px;
+            border-radius: 20px 0px;
+            margin: 1%;
+            overflow: auto;
+            cursor: pointer;
+      }
+
+      .elementosDoSearch{
+            margin: 0px;
+            padding: 5%;
+            color: white;
+            font-size: 2.4em;
+      }
+
+      #snackbar {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 35%;
+            bottom: 30px;
+            font-size: 2em;
+      }
+
+      #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+
+      @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+      }
+
+
+      @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+      }
+
+      .fecharBTN_BX_patrao{
+        background-color: #544343;
+        border: none;
+        font-size: 1.5em;
+        margin-top: 2.5%;
+        border-radius: 5px;
+        color: white;
+        transition: .1s;
+        opacity: .9;
+      }
+}
+/*
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+*/
+@media only screen and (min-width: 900px) {
+  body{
+  margin: 0px;
+  background-color: black;
+  background-repeat: no-repeat;
+  /*
+  font-size: .8em;
+  
+  medio
+  font-size: 1em;
+
+  grande
+  display: block;
+  font-size: 1.2em;
+
+  */
+  
+}
+
+.font_tamanho{
+  border: none;
+  font-size: 1em;
+  background-color: #540aad;
+  padding: 0.5%;
+  border-radius: 12px;
+  transition: .2s;
+  color: white;
+}
+
+.font_tamanho:hover{
+  cursor: pointer;
+  transition: .2s;
+  color: white;
+  font-size: 1.1em;
+}
+
+.font_tamanho:first-child{
+
+}
+
+
+#logo{
+  color: white;
+  font-size: 55px;
+  opacity: 0.7;
+  
+  background-image: 
+  linear-gradient(to right, rgba(20, 253, 99, 0.82), rgba(76, 101, 226, 0.85), rgba(60,210,255,1));
+
+
+  position: absolute;
+  margin-top: 4%;
+  padding-left: 11px;
+  padding-right: 50px;
+  border-radius: 0px 40px 0px 0px;
+  animation: sombra 20s infinite; 
+  -webkit-animation: sombra 20s infinite;  /* Safari 4.0 - 8.0 */    
+  box-shadow: 18px 0px 20px 20px #12037d;           
+}
+
+@keyframes sombra
+            {
+              0% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              5% {box-shadow: 18px 0px 20px 20px #09ff1c;}
+              10% {box-shadow: 18px 0px 20px 20px #acff09;}
+              15% {box-shadow: 18px 0px 20px 20px #fff709;}
+              20% {box-shadow: 18px 0px 20px 20px #ffa809;}
+
+              25% {box-shadow: 18px 0px 20px 20px #ff6f09;}
+              30% {box-shadow: 18px 0px 20px 20px #ff4d09;}
+              35% {box-shadow: 18px 0px 20px 20px #ff2009;}
+              40% {box-shadow: 18px 0px 20px 20px #ff0909;}
+              45% {box-shadow: 18px 0px 20px 20px #ff0986;}
+
+              50% {box-shadow: 18px 0px 20px 20px #ff09e1;}
+              55% {box-shadow: 18px 0px 20px 20px #ce09ff;}
+              60% {box-shadow: 18px 0px 20px 20px #8a09ff;}
+              65% {box-shadow: 18px 0px 20px 20px #0d09ff;}
+              70% {box-shadow: 18px 0px 20px 20px #0977ff;}
+
+              75% {box-shadow: 18px 0px 20px 20px #09bbff;}
+              80% {box-shadow: 18px 0px 20px 20px #09ffe8;}
+              85% {box-shadow: 18px 0px 20px 20px #09ff77;}
+              90% {box-shadow: 18px 0px 20px 20px #18ff09;}
+              95% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              100%{box-shadow: 18px 0px 20px 20px #09ffa4;}
+            }
+
+
+            /* Safari 4.0 - 8.0*/ 
+            @-webkit-keyframes sombra
+            {
+              0% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              5% {box-shadow: 18px 0px 20px 20px #09ff1c;}
+              10% {box-shadow: 18px 0px 20px 20px #acff09;}
+              15% {box-shadow: 18px 0px 20px 20px #fff709;}
+              20% {box-shadow: 18px 0px 20px 20px #ffa809;}
+
+              25% {box-shadow: 18px 0px 20px 20px #ff6f09;}
+              30% {box-shadow: 18px 0px 20px 20px #ff4d09;}
+              35% {box-shadow: 18px 0px 20px 20px #ff2009;}
+              40% {box-shadow: 18px 0px 20px 20px #ff0909;}
+              45% {box-shadow: 18px 0px 20px 20px #ff0986;}
+
+              50% {box-shadow: 18px 0px 20px 20px #ff09e1;}
+              55% {box-shadow: 18px 0px 20px 20px #ce09ff;}
+              60% {box-shadow: 18px 0px 20px 20px #8a09ff;}
+              65% {box-shadow: 18px 0px 20px 20px #0d09ff;}
+              70% {box-shadow: 18px 0px 20px 20px #0977ff;}
+
+              75% {box-shadow: 18px 0px 20px 20px #09bbff;}
+              80% {box-shadow: 18px 0px 20px 20px #09ffe8;}
+              85% {box-shadow: 18px 0px 20px 20px #09ff77;}
+              90% {box-shadow: 18px 0px 20px 20px #18ff09;}
+              95% {box-shadow: 18px 0px 20px 20px #09ffa4;}
+              100%{box-shadow: 18px 0px 20px 20px #09ffa4;}
+            }
+
+            #logo:before, #logo:after
+            {
+                  content: 'Animes Paradise';
+                  position: absolute;
+                  top: 0;
+                  left: 11px;
+                  right: 0;
+                  overflow: hidden;
+                  color: #fff;
+            }
+            
+            #logo: before
+            {
+                  left: 8px;
+                  text-shadow: 2px 0 #00ffea;
+                  animation: effect 3s infinite linear;
+            }
+            
+             #logo:after
+            {
+                  left: 4px;
+                  text-shadow: -2px 0 #fe3a7f;
+                  animation: effect 2s infinite linear;
+            }
+            
+            @-webkit-keyframes effect
+            {
+                  0%{
+                        clip:rect(55px, 9999px, 56px, 0);
+
+                  }
+                  
+                  5%{
+                        clip:rect(47px, 9999px, 30px, 0);
+                  }
+                  
+                  10%{
+                        clip:rect(33px; 9999px, 36px, 0);
+                  }
+                  
+                  15%{
+                        clip:rect(53px, 9999px, 9px, 0);
+                  }
+                  
+                  20%{
+                        clip:rect(63px, 9999px, 59px, 0);
+                  }
+                  
+                  25%{
+                        clip:rect(96px,9999px, 98px, 0);
+                  }
+                  
+                  30%{
+                        clip:rect(48px, 9999px, 77px, 0);
+                  }
+                  
+                  35%{
+                        clip:rect(50px, 9999px, 34px, 0);
+                  }
+                  
+                  40%{
+                        clip:rect(60px, 9999px, 72px, 0);
+                  }
+                  
+                  45%{
+                        clip:rect(10px, 9999px, 81px, 0);
+                  }
+                  
+                  50%{
+                        clip:rect(2px, 9999px, 60px, 0);
+                  }
+                  
+                  55%{
+                        clip:rect(23px, 9999px, 89px, 0);
+                  }
+                  
+                  60%{
+                        clip:rect(76px, 9999px, 91px, 0);
+                  }
+                  
+                  65%{
+                        clip:rect(62px, 9999px, 30px, 0);
+                  }
+                  
+                  70%{
+                        clip:rect(60px, 9999px, 73px, 0);
+                  }
+                  
+                  75%{
+                        clip:rect(60px, 9999px, 87px, 0);
+                  }
+                  
+                  80%{
+                        clip:rect(2px, 9999px, 14px, 0);
+                  }
+                  
+                  85%{
+                        clip:rect(2px, 9999px, 14px, 0);
+                  }
+                  
+                  90%{
+                        clip:rect(73px, 9999px, 50px, 0);
+                  }
+                  
+                  95%{
+                        clip:rect(79px, 9999px, 50px, 0);
+                  }
+                  
+                  100%{
+                        clip:rect(17px, 9999, 79px, 0);
+                  }
+                  
+            }
+  /*Template Animes & HQ*/
+    #logo
+    {
+      color: white;
+      font-size: 55px;
+      opacity: 0.7;
+      background-color: black;
+      position: absolute;
+      margin-top: 8%;
+      padding-left: 1%;
+      padding-right: 50px;
+      border-radius: 0px 30px 0px 0px;
+    }
+
+    /*primeiro botão do menu*/
+    #menu
+    {
+      background-color: #da78abe6;
+      color: white;
+      border: 0px;
+      border-radius: 10px;
+      font-size: 25px;
+      width: 11.5%;
+      height: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-left: 0.5%;
+
+    }
+
+    .menu
+    {
+      background-color: #da78abe6;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      width: 150px;
+      height: 50px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 1%;
+    }
+
+    #menu:hover, .menu:hover
+    {
+      background-color: black;
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #caixa_Principal_animes
+    {
+      background-color: #8778da87;
+      width: 90%;
+      margin-left: 5%;
+      margin-top: 20%;
+      margin-bottom: 5%;
+      
+      border-radius: 20px;
+      display: inline-block;
+    }
+
+    #entrada
+    {
+        background-color: #821ece80;
+        color: white;
+        width: 27.8%;
+        border-radius: 5px;
+        font-size: 2.5em;
+        /*margin-top: .5%;*/
+        margin-left: 3%;
+        box-shadow: -9px 0px 20px 16px #ffffff78;
+        border: none;
+        position: absolute;
+        margin-top: 1%;
+    }
+
+      #entrada::placeholder
+      {
+            color: #939396;
+      }
+
+      #procurar
+      {
+
+        background-color: DodgerBlue;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: 31%;
+        position: absolute;
+        font-size: 2.5em;
+        box-shadow: 9px 1px 20px 13px #ffffff7a;
+        border: none;
+        /*margin-top: .5%;*/
+        margin-top: 1%;
+      }
+
+
+    a{
+      text-decoration: none;
+    }
+
+    .alfabeto
+    {
+      background-color: #1b1717;
+      color: white;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 0px;
+      border-radius: 20px 0px;
+      text-decoration: none;
+      color: white;
+      font-size: 250%;
+      margin-left: .4%;
+      margin-top: 2%;
+    }
+
+    #menu:hover, .menu:hover
+    {
+      background-color: black;
+      -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+
+    #btn_filtro_categorias{
+      margin-top: 2.5%;
+    }
+
+    .categ_filtro{
+      background-color: #1fbd3e;
+      border: none;
+      color: white;
+      border-radius: 15px;
+      font-size: 2em;
+      margin: .5%;
+      transition: .5s;
+    }
+
+    .categ_filtro:hover{
+      background-color: #631f24;
+      cursor: pointer;
+      transition: .2s;
+    }
+
+    .fechar_btn_categ{
+      color: #d61111;
+      border: none;
+      background-color: transparent;
+    }
+
+
+    .categorias:hover, .alfabeto:hover
+    {
+      -webkit-transform: scale(2.3);
+      -ms-transform: scale(2.1);
+      transform: scale(1.8);
+      background-color: #46e214b3;
+      cursor: pointer;
+    }
+
+    #categorias{
+      background-color: #48a098a8;
+      width: 33.9%;
+      margin-left: 0.5%;
+      margin-top: 2.7%;
+      border-radius: 0px 0px 20px 20px;
+      display: inline-block;
+      float: left;
+    }
+
+    .categorias
+    {
+      background-color: #37e8e0b3;
+      color: white;
+      border: 0px;
+      font-size: 25px;
+      margin: .7%;
+      width: 31.9%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: center;
+      margin-top: 1%;
+
+    }
+
+    #tableAnimes 
+    {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      display: inline-block; 
+      margin-top: 2.7%;
+      margin-left: 2%;
+      width: 62%;
+    }
+
+    .tdAnimesTable, .thAnimesTable 
+    {    
+        text-align: left;
+        padding: 8px;
+    }
+
+    .trAnimesTable:first-child:hover{
+      background-color: transparent;
+    }
+
+    .tdAnimesTable
+    {
+      color: white;
+    }
+
+    .tdAnimesTable:hover
+    {
+      cursor: pointer;
+    }
+
+    .espacamento
+    {
+      
+      font-size: 1.5em;
+    }
+
+
+    .trAnimesTable:hover{
+      background-color: #232121b3;
+      transition: .2s;
+    }
+
+    .trAnimesTable{
+      height: 15%;
+      width: 100%;
+      transition: .1s;
+    }
+
+
+
+
+
+
+
+
+
+    .botao
+      {
+            size: 50px;
+            font-size: 50px;
+            background-color: green;
+            border: 0px;
+            transition: all 0.2s ease;
+            margin-top: 1%;
+            margin-left: 0.5%;
+            padding: 0.5%;
+            border-radius: 10px;
+            
+      }
+
+      .botao:hover
+      {
+        cursor: pointer;
+      }
+
+      .botao a{
+            color: white;
+      }
+
+      .botao:hover
+      {
+            background-color: #1c49bb;
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+      }
+
+      .episodio
+      {
+            background-color: #702dbf;
+            color: white;
+            font-size: 305%;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            border: 0px;
+            border-radius: 20px 0px;
+            margin: 1%;
+            overflow: auto;
+            cursor: pointer;
+      }
+
+      .episodio:hover
+      {
+            -webkit-transform: scale(1.3);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            background-color: #46e214b3;
+            cursor: pointer;
+      }
+
+      .elementosDoSearch{
+            margin: 0px;
+            padding: 5%;
+            color: white;
+            font-size: 2.4em;
+      }
+
+      .elementosDoSearch:hover{
+            cursor: pointer;
+            background-color: #292733b3;
+      }
+
+      #snackbar {
+            visibility: hidden;
+            min-width: 250px;
+            margin-left: -125px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 2px;
+            padding: 16px;
+            position: fixed;
+            z-index: 1;
+            left: 35%;
+            bottom: 30px;
+            font-size: 2em;
+      }
+
+      #snackbar.show {
+            visibility: visible;
+            -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+            animation: fadein 0.5s, fadeout 0.5s 2.5s;
+      }
+
+      @keyframes fadein {
+        from {bottom: 0; opacity: 0;}
+        to {bottom: 30px; opacity: 1;}
+      }
+
+
+      @keyframes fadeout {
+        from {bottom: 30px; opacity: 1;}
+        to {bottom: 0; opacity: 0;}
+      }
+
+      .fecharBTN_BX_patrao{
+        background-color: #544343;
+        border: none;
+        font-size: 1.5em;
+        margin-top: 2.5%;
+        border-radius: 5px;
+        color: white;
+        transition: .1s;
+        opacity: .9;
+      }
+
+      .fecharBTN_BX_patrao:hover{
+        transition: .1s;
+        background-color: #d21111;
+        cursor: pointer;
+        opacity: 1;
+      }
+}

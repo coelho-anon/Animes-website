@@ -1,0 +1,28 @@
+
+fonte de tudo
+color #939396
+
+elementos do search:hover
+bg #292733b3;
+
+table
+bg #06022fc9
+border 5px solid #083a22;
+boxShadow #060733 0px 0px 20px 12px
+
+btn palavra baixar
+btn palavra baixar bg #03194a
+btn palavra baixar boxShadow #000000bf 0px 0px 20px 14px
+
+btn palavra assistir online
+btn palavra assistir online bg #0c230ff0;
+btn palavra assistir online boxShadow  rgb(28, 5, 56) 0px 0px 20px 14px;
+
+btn assistir online
+btn assistir online bg #150429
+btn assistir online bg hover #081d01b3
+
+btn baixar
+btn baixar bg #021d02
+btn baixar bg hover #030223
+
